@@ -1,0 +1,28 @@
+
+//3 array in which  common element are  sorted in the  array
+ public class
+{
+    public static void main(Stringx[])
+    {
+        int a[]={1,2,3};
+        int b[]={2,3,4};
+        int c[]={3,4,5};
+        int i=0,j=0,k=0;
+        while(i<a.length && j<b.length && k<c.length){
+         System.out.println(a[i]);
+            if(a[i]==b[j]&&b[i]==c[k]){
+                i++;
+                j++;
+                k++;
+            }else if(a[i]<b[j])
+            {
+                i++;
+            }
+            else if(b[i]<c[j]){
+                j++;
+            }
+            else{_
+               k++;
+            }
+        }
+}
