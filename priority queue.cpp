@@ -1,6 +1,6 @@
 void ex(){
     priority_queue<int>pq;
-    pq.push()
+    pq.push()                   // max heap
     pq.pop(
         pq.emplace()
         pq.top()
